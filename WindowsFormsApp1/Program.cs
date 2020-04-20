@@ -5,8 +5,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Komandirovki;
 
-// using Komandirovki;
-
 namespace WindowsFormsApp1
 {
     static class Program
@@ -19,7 +17,7 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainWindow());
+            Application.Run(new PersonalCard(228));
         }
     }
 }
