@@ -142,9 +142,21 @@
     </Compile>
     <Compile Include="CalendarColumn.cs" />
     <Compile Include="CHARACTER_WORK.cs" />
+    <Compile Include="ChooseST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseST.Designer.cs">
+      <DependentUpon>ChooseST.cs</DependentUpon>
+    </Compile>
     <Compile Include="DelWorkPrikaz.cs" />
     <Compile Include="DelWorkPrikaz.Designer.cs">
       <DependentUpon>DelWorkPrikaz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Donloading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Donloading.Designer.cs">
+      <DependentUpon>Donloading.cs</DependentUpon>
     </Compile>
     <Compile Include="EditDelWorkPrikaz.cs">
       <SubType>Form</SubType>
@@ -161,12 +173,6 @@
     <Compile Include="FAMILY_MEMBER.cs" />
     <Compile Include="GENDER.cs" />
     <Compile Include="GRAZDAN.cs" />
-    <Compile Include="Instructions.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Instructions.Designer.cs">
-      <DependentUpon>Instructions.cs</DependentUpon>
-    </Compile>
     <Compile Include="JOB_POSITION.cs" />
     <Compile Include="LANGUAGE.cs" />
     <Compile Include="LANGUAGE_LVL.cs" />
@@ -180,6 +186,12 @@
     <Compile Include="ONE_EDU.cs" />
     <Compile Include="OUR_ORG.cs" />
     <Compile Include="PEREVOD.cs" />
+    <Compile Include="PerevodWorkPrikaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerevodWorkPrikaz.Designer.cs">
+      <DependentUpon>PerevodWorkPrikaz.cs</DependentUpon>
+    </Compile>
     <Compile Include="PersonalCard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -224,6 +236,12 @@
     <Compile Include="Questions.Designer.cs">
       <DependentUpon>Questions.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReadPerevodWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReadPerevodWork.Designer.cs">
+      <DependentUpon>ReadPerevodWork.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reports.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -235,6 +253,20 @@
     </Compile>
     <Compile Include="ReadDelWorkPrikaz.Designer.cs">
       <DependentUpon>ReadDelWorkPrikaz.cs</DependentUpon>
+    </Compile>
+
+    <Compile Include="SearchPodrazdel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchPodrazdel.Designer.cs">
+      <DependentUpon>SearchPodrazdel.cs</DependentUpon>
+	</Compile>
+    <Compile Include="SearchPersonCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchPersonCard.Designer.cs">
+      <DependentUpon>SearchPersonCard.cs</DependentUpon>
+	
     </Compile>
     <Compile Include="SearchWorkerForm.cs">
       <SubType>Form</SubType>
@@ -272,8 +304,14 @@
     <EmbeddedResource Include="AddPlaceKomandForm.resx">
       <DependentUpon>AddPlaceKomandForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChooseST.resx">
+      <DependentUpon>ChooseST.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DelWorkPrikaz.resx">
       <DependentUpon>DelWorkPrikaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Donloading.resx">
+      <DependentUpon>Donloading.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditDelWorkPrikaz.resx">
       <DependentUpon>EditDelWorkPrikaz.cs</DependentUpon>
@@ -283,6 +321,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerevodWorkPrikaz.resx">
+      <DependentUpon>PerevodWorkPrikaz.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PersonalCard.resx">
       <DependentUpon>PersonalCard.cs</DependentUpon>
@@ -314,6 +355,17 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReadDelWorkPrikaz.resx">
       <DependentUpon>ReadDelWorkPrikaz.cs</DependentUpon>
+    </EmbeddedResource>
+
+    <EmbeddedResource Include="SearchPodrazdel.resx">
+      <DependentUpon>SearchPodrazdel.cs</DependentUpon>
+</EmbeddedResource>
+    <EmbeddedResource Include="ReadPerevodWork.resx">
+      <DependentUpon>ReadPerevodWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchPersonCard.resx">
+      <DependentUpon>SearchPersonCard.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="SearchWorkerForm.resx">
       <DependentUpon>SearchWorkerForm.cs</DependentUpon>

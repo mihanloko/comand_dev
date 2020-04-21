@@ -219,7 +219,7 @@
             this.TabNumColumn.HeaderText = "Таб.номер";
             this.TabNumColumn.Name = "TabNumColumn";
             this.TabNumColumn.ReadOnly = true;
-            this.TabNumColumn.Width = 90;
+            this.TabNumColumn.Width = 91;
             // 
             // PodrazdelColumn
             // 
@@ -716,6 +716,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "KomandirovkaForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Командировка";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.KomandirovkaForm_FormClosing);
             ((System.ComponentModel.ISupportInitialize) (this.placesView)).EndInit();
