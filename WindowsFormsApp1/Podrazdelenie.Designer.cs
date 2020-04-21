@@ -194,7 +194,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.namePodrazdel);
             this.Name = "Podrazdelenie";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Podrazdelenie";
+            this.Text = "Подразделение";
             this.Load += new System.EventHandler(this.Podrazdelenie_Load);
             ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

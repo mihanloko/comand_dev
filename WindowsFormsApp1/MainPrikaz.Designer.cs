@@ -228,7 +228,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.fullname);
             this.Name = "MainPrikaz";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "MainPrikaz";
+            this.Text = "Приказы";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize) (this.dataGridView_family)).EndInit();
             this.ResumeLayout(false);
